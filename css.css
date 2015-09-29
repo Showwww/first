@@ -1,0 +1,17 @@
+.t1 {
+   background-color: lightblue;
+}
+.t2 {
+   background-color: lightyellow;
+}
+.t3 {
+   background-color: lightyellow;
+}
+
+body {
+    width: 350px;
+    margin: 0;
+    padding: 0 10px;
+    font-size: 14px;
+    font-family: Arial, sans-serif;
+}
