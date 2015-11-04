@@ -1,3 +1,4 @@
+
 window. onload =  function()
 {
 	var image = document.getElementById ("gallery").children[0];
@@ -42,3 +43,4 @@ some[1].onclick = function(){
 	image1.style.display = "block";
 }
 };
+
