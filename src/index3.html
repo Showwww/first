@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Испытание: макет-прототип</title>
+</head>
+<body>
+
+<script>
+    var Num1 = prompt("Number one please!!!");
+    var Num2 = prompt(" Number two quickly please");
+    var Operation = prompt(" Please choose operation: subtraction  plus multiplication divide");
+
+    function divide(a, b) {
+        var divide;
+        divide = a / b;
+        alert(divide);
+    }
+
+    function multiplication(a, b) {
+        var multiplication;
+        multiplication = a * b;
+        alert(multiplication);
+    }
+
+    function subtraction(a, b) {
+        var subtraction;
+        subtraction = a - b;
+        alert(subtraction);
+    }
+
+    function plus(a, b) {
+        var x = a;
+        var y = b;
+        console.log((x + 1) + (y + 1));
+    }
+
+    if (Operation === "divide") {
+        divide(Num1, Num2);
+    } else if (Operation === "subtraction") {
+        subtraction(Num1, Num2);
+    } else if (Operation === "multiplication") {
+        multiplication(Num1, Num2);
+    } else if (Operation === "plus") {
+        plus(Num1, Num2);
+    }
+
+</script>
+</body>
+</html>
