@@ -1,11 +1,17 @@
 {
   "dependencies": {
+    "assets": "^3.0.1",
     "bootstrap": "^4.3.1",
     "jquery": "^3.4.1",
-    "node-sass": "^4.12.0",
-    "yarn": "^1.16.0"
+    "popper.js": "^1.15.0",
+    "sass": "^1.22.2"
   },
   "scripts": {
-    "css": "node-sass assets/scss"
-  }
+    "start": "parcel index.html"
+  },
+  "name": "first",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:Showwww/first.git",
+  "license": "MIT"
 }
